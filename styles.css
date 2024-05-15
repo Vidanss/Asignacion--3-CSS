@@ -1,0 +1,148 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f5f5; /* Color de fondo diferente al negro y al blanco */
+    color: #333; /* Color de texto predeterminado */
+}
+
+header {
+    background-color: #048998; /* Color de fondo del encabezado */
+    padding: 0px;
+    color: white; /* Color de texto del encabezado */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+}
+
+div {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Permite a los articulos hacer wrap a la siguiente linea */
+}
+
+h1 {
+    font-family: 'Times New Roman', serif; /* Tipo de letra para títulos */
+}
+
+article {
+    align-items: center;
+    height: 450px;
+    margin-bottom: 20px;
+    width: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #dedada; /* Background color for articles */
+    border: 5px solid #dedada; /* Border for articles */
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2.5%;
+    position: relative; /* Ensure relative positioning for the image container */
+    overflow: hidden; /* Hide overflow content */
+
+    text-decoration: none;
+
+}
+
+article h2 {
+    font-family: 'Times New Roman', serif; /* Tipo de letra para títulos */
+}
+
+article img {
+    margin-top: 10px;
+    width: 100%;
+    height: auto; /* Set height to auto to maintain aspect ratio */
+    object-fit: contain; /* Maintain aspect ratio and fit within the container */
+    border-radius: inherit; /* Inherit border-radius from the article */
+    display: block; /* Ensure image is displayed as a block element */
+    float: left; /* Float the image to the left */
+    margin-right: 10px; /* Add margin between image and paragraph */
+    margin-bottom: 15px; /* Add margin to the bottom of the image */
+}
+
+article p {
+    clear: both; /* Clear floating elements (like the image) */
+    text-align: justify;
+}
+
+article:hover {
+    background-color: #f6f5f5; /* Change background color on hover */
+    transform: scale(1.025); /* Increase size slightly on hover */
+}
+
+article:last-child {
+    margin-right: 0; /* Remueve el margen del ultimo articulo para evitar overflow */
+}
+
+article a {
+    text-align: center;
+    list-style-type: none;
+    color: #048998;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #048998; /* Color de fondo del pie de pagina */
+    padding: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+footer ul li {
+    /*display: inline;*/
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #c6c6c6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+/*COLOR PALLETE
+Turquoise:  #048998
+Light Gray: #f6f5f5
+Cyan:       #05b6ca
+Dark Green: #035c66
+White:      #ffffff
+Bone:       #dedada
+*/
