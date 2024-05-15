@@ -67,14 +67,15 @@ article {
     box-sizing: border-box;
     border-radius: 2.5%;
     position: relative; /* Ensure relative positioning for the image container */
-    overflow: hidden; /* Hide overflow content */
-
+    overflow: hidden; /* Hide overflow content */  
     text-decoration: none;
 
 }
 
 article h2 {
     font-family: 'Times New Roman', serif; /* Tipo de letra para títulos */
+    font-weight: bold;
+
 }
 
 article img {
